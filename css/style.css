@@ -5,9 +5,6 @@
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif\;
 }
-.test{
-    border: 2px solid;
-}
 .container{
     height: 100%;
     display: flex;
@@ -99,4 +96,16 @@ img{
 .pop_title{
     position: relative;
     font-family: 'Courier New', Courier, monospace;
+}
+@media only screen and (min-width: 700px){
+    .pop_up{
+        width: 50%;
+        height: 40%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .pop_up{
+        width: 40%;
+        height: 30%;
+    }
 }
